@@ -6,11 +6,12 @@
 #include <TFT.h> // Arduino LCD library
 #include <SPI.h>
 
-// pin definition for the Uno
+// pin definition for the Uno and Nano
 #define cs 10
 #define dc 9
 #define rst 8
 #define sd_cs 4
+
 
 //Расположение данных на дисплее
 #define pitch_y 10
@@ -30,7 +31,6 @@ char setPrintout[2];
 const int chipSelect = 4;
 Sd2Card card;
 SdVolume volume;
-SdFile root;
 PImage logo;
 
 // создаём объект для работы с акселерометром
