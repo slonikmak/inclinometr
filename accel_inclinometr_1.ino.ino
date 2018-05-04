@@ -30,7 +30,6 @@ char setPrintout[2];
 
 const int chipSelect = 4;
 Sd2Card card;
-SdVolume volume;
 PImage logo;
 
 // создаём объект для работы с акселерометром
